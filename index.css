@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    background-image: url(/images/Background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    width: 430px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.top{
+    background-color:#2355f2;
+    background-image: url(/images/Pattern.png);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px 10px 0 0;
+}
+.top h2{
+    color: #fff;
+    margin: 0 3rem;
+    padding:  2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+#para-1{
+    color: #595959;
+    text-align: center;
+    margin: 1rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+}
+.input-div{
+margin: 0 1rem;
+}
+ #Email{
+     display: inline;
+     width: 260px;
+     height: 45px;
+     background-color: #f5f7fa;
+     border: none;
+     border-radius: 5px;
+     color: #d4d7df;
+     font-weight: bold;
+     margin-right: .5rem;
+     padding-left: 1rem;
+}
+#btn{
+    display: inline;
+    width: 115px;
+    height: 45px;
+    background-color: #2355f2;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#para-2{
+    color: #d4d7df;
+    margin: 1rem;
+}
+.profile-div{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.profile-div-sub{
+    line-height: 1.2rem;
+    margin: .5rem;
+}
+.profile-div-sub p{
+    color: #d4d7df;
+}
+#para-3{
+    color: #595959;
+    text-align: center;
+    padding: 0 1.5rem ;
+    margin-bottom: 1.5rem;
+}
